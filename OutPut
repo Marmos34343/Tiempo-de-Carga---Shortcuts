@@ -1,0 +1,26 @@
+El objetivo de crear un OutPut es darle la posibilidad al usuario de utilizar la información en algún otro shortcut o accesorio, por ejemplo: Si alguien tiene un enchufe inteligente, pueda activar la corriente y cargar el dispositivo o desconectar el dispositivo de manera automatica.
+
+Un ejemplo de OutPut es:
+
+    {
+      "dispositivoCargandose":true,
+      "dispositivoDescargandose":false,
+      "esperarParaEliminarNotificaciones":false,
+      "minutosRestantesHasta80":15.3,
+      "minutosRestantesHasta100":88.4,
+      "minutosMaximosHasta80":27.4,
+      "minutosMaximoHasta100":171.4,
+      "bateriaActual":61
+   }
+
+Para ir desglosando estos valores:
+
+- dispositivoCargandose: Indica si el dispositivo se está cargando o no, si el dispositivo está conectado a la corriente y está al 100% de batería este valor será "false"
+- dispositivoDescargandose: Indica si el dispositivo se está descargando o no.
+- esperarParaEliminarNotificaciones: Si es "true" es porque el atajo eliminará las notificaciones que fueron lanzadas a excepcion de las notificaciones de actualización.
+- minutosRestantesHasta80: Es el tiempo en minutos que faltan para llegar al 80%.
+- minutosRestantesHasta100: Es la suma de los "minutosRestantesHasta80" más el tiempo restante desde 80 al 100%. Si quieres obtener solo el tiempo que falta desde 80 a 100% solo le debes restar "minutosRestantesHasta80".
+- minutosMaximosHasta80: Es el tiempo máximo requerido para llegar al 80%
+- minutosRestantesHasta100: Es la suma de "minutosRestanteHasta80" más el tiempo requerido máximo para llegar al 100%.
+
+
