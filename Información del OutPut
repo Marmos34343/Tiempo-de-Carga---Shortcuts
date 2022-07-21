@@ -15,7 +15,7 @@ Un ejemplo de OutPut es:
 
 Para ir desglosando estos valores:
 
-- dispositivoCargandose: Indica si el dispositivo se está cargando o no, si el dispositivo está conectado a la corriente y está al 100% de batería este valor será "false"
+- dispositivoCargandose: Indica si el dispositivo se está cargando o no, si el dispositivo está conectado a la corriente y está al 100% de batería este valor será "false".
 - dispositivoDescargandose: Indica si el dispositivo se está descargando o no.
 - esperarParaEliminarNotificaciones: Si es "true" es porque el atajo eliminará las notificaciones que fueron lanzadas a excepcion de las notificaciones de actualización.
 - minutosRestantesHasta80: Es el tiempo en minutos que faltan para llegar al 80%.
