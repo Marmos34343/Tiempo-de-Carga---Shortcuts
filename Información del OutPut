@@ -19,6 +19,6 @@ Para ir desglosando estos valores:
 - dispositivoDescargandose: Indica si el dispositivo se está descargando o no.
 - esperarParaEliminarNotificaciones: Si es "true" es porque el atajo eliminará las notificaciones que fueron lanzadas a excepcion de las notificaciones de actualización.
 - minutosRestantesHasta80: Es el tiempo en minutos que faltan para llegar al 80%.
-- minutosRestantesHasta100: Es la suma de los "minutosRestantesHasta80" más el tiempo restante desde 80 al 100%. Si quieres obtener solo el tiempo que falta desde 80 a 100% solo le debes restar "minutosRestantesHasta80".
+- minutosRestantesHasta100: Es el tiempo restante unicamente desde el 80 hasta el 100%.
 - minutosMaximosHasta80: Es el tiempo máximo requerido para llegar al 80%
-- minutosRestantesHasta100: Es la suma de "minutosRestanteHasta80" más el tiempo requerido máximo para llegar al 100%.
+- minutosRestantesHasta100: Es el tiempo máximo requerido para llegar al 100% desde el 80% de carga.
