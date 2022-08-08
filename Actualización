@@ -1,7 +1,5 @@
-{"ultimaVersion":4.5,"URL":"https://www.icloud.com/shortcuts/d3eb534b12b345f48149c83bfa6e4fc1"}
+{"ultimaVersion":4.6,"URL":"https://www.icloud.com/shortcuts/26b9d447a73e4c148b96ac1764549ef3"}
 
-Notas versión 4.5
-• Actualmente existen problemas para buscar actualización usando el sistema de RoutineHub. Ahora al ejecutar el atajo 2 veces seguidas en menos de 15 segundos se desplegará el menú donde podrás buscar si hay nuevas actualizaciones (No usa RoutineHub). Podrás buscar unicamente de manera manual.
-• Se soluciona el error “Could Not Run Run Inline Script Error”.
-• Anteriormente los OutPut arrojaban resultados solo si estaba el dispositivo conectado, ahora no es necesario que esté conectado.
-• Recuerda que puedes visitar https://github.com/Marmos34343/Tiempo-de-Carga---Shortcuts por más info.
+Notas versión 4.6:
+• Pequeños cambios en en caso de que el RoutineHub no funcione.
+• Ahora al tocar las notificaciones se ejecutará el Shortcut.
