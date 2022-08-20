@@ -20,5 +20,5 @@ Para ir desglosando estos valores:
 - esperarParaEliminarNotificaciones: Si es "true" es porque el atajo eliminará las notificaciones que fueron lanzadas a excepcion de las notificaciones de actualización.
 - minutosRestantesHasta80: Es el tiempo en minutos que faltan para llegar al 80%.
 - minutosRestantesHasta100: Es el tiempo restante unicamente desde el 80 hasta el 100%.
-- minutosMaximosHasta80: Es el tiempo máximo requerido para llegar al 80%
+- minutosMaximosHasta80: Es el tiempo máximo requerido para llegar al 80%.
 - minutosRestantesHasta100: Es el tiempo máximo requerido para llegar al 100% desde el 80% de carga.
